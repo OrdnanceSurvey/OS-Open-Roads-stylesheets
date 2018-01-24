@@ -2,7 +2,7 @@
 
 These are QML files for OS Open Roads in ESRI shapefile format for use in GeoServer.
 
-*They have been designed to work with the data as supplied
+* They have been designed to work with the data as supplied
 
 ## Quick start guide
 
@@ -26,7 +26,7 @@ Your data should now look similar to this:
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/OS_Open_Roads_screenshot.png "Screenshot of OS Open Roads")
 
-##Compatibility notes
+## Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags.
 
