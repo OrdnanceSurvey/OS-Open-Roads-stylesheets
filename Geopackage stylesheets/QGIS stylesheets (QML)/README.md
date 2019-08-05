@@ -1,6 +1,6 @@
 # OS Open Roads
 
-These are QML files for OS Open Roads data as supplied in GML/GZ format.
+These are QML files for OS Open Roads data as supplied in Geopackage format.
 
 ## Quick start guide
 
