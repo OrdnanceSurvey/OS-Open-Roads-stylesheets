@@ -56,11 +56,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       
       <FeatureTypeStyle>   
         <Rule>
-          <Name>Unclassified</Name>
+          <Name>Unknown</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>roadClassification</ogc:PropertyName>
-              <ogc:Literal>Unclassified</ogc:Literal>
+              <ogc:Literal>Unknown</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>250</MinScaleDenominator>
