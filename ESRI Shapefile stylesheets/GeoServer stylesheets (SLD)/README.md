@@ -1,8 +1,8 @@
 # OS Open Roads
 
-These are QML files for OS Open Roads in ESRI shapefile format for use in GeoServer.
+These are **QML** files for OS Open Roads in **ESRI shapefile** format for use in **GeoServer**.
 
-* They have been designed to work with the data as supplied
+*They have been designed to work with the data as supplied*
 
 ## Quick start guide
 
