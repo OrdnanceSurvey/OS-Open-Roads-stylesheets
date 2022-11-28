@@ -1,6 +1,6 @@
 # OS Open Roads
 
-These are QML files for OS Open Roads data as supplied in ESRI Shapefile (SHP) format.
+These are **QML** files for OS Open Roads data as supplied in **ESRI Shapefile (SHP)** format for use in **QGIS**.
 
 ## Quick start guide
 
