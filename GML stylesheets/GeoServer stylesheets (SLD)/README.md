@@ -1,6 +1,6 @@
 # OS Open Roads
 
-These are QML files for OS Open Roads in GML/GZ format for use in GeoServer.
+These are **QML** files for OS Open Roads in **GML/GZ** format for use in **GeoServer**.
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
