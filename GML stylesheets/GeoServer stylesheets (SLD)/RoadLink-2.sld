@@ -5,12 +5,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Roads (RoadLink-2)</Name>
     <UserStyle>
-      <Title>Product SLD - October 2016</Title>
-      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2016.</Abstract>
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
 
       <!--  Slip Road  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Local Access Road</Name>
           <ogc:Filter>
@@ -135,7 +135,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -162,7 +162,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -189,7 +189,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -216,7 +216,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -260,8 +260,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Single Carriageway or Dual Carriageway (uncollased)  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Secondary Access Road</Name>
           <ogc:Filter>
@@ -453,7 +453,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
@@ -486,7 +486,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
@@ -519,7 +519,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
@@ -552,7 +552,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
@@ -609,8 +609,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
 
       <!--  (Collapsed) Dual Carriageway  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Secondary Access Road</Name>
           <ogc:Filter>
@@ -758,7 +758,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -785,7 +785,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -812,7 +812,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -839,7 +839,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -884,8 +884,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
 
       <!--  Roundabout  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Secondary Access Road</Name>
           <ogc:Filter>
@@ -1033,7 +1033,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -1060,7 +1060,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -1087,7 +1087,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>false</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -1114,7 +1114,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>PRIMARY</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>true</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
