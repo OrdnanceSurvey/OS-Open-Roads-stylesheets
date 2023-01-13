@@ -6,11 +6,11 @@ These are **QML** files for OS Open Roads data as supplied in **Geopackage** for
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Load your Open Roads GML data into QGIS
+**2.**  Load your Open Roads geopackage data into QGIS
 
 **3.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the relevantly named QML file > click 'Open' > click 'OK'
 
-Repeat step 3 for all layers.
+Repeat step 4 for all layers.
 
 We recommend the following layer order and visibility:
 
