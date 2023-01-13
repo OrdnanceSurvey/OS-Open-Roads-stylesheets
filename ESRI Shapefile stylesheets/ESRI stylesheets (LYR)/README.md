@@ -10,21 +10,13 @@ These are **LYR** files for OS Open Roads in **ESRI Shapefile** format for use i
 
 **2.**  Open a new blank map in ArcMap
 
-**3.**  Right-click on ‘Layers’ at the top of the Table Of Contents, select Properties… > then General > set Reference Scale to 1:25 000 and set the Label Engine to ‘Maplex Label Engine’
+**3.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
 
-**4.**  In the same window select the Frame tab and change the Background colour to R 250 G 249 B 247, and under the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
+**4.**  Select the layer file and click ‘Add’
 
-**5.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
-
-**6.**  Select the layer file and click ‘Add’
-
-**7.**  Your Table of Contents should now look like this. This is the recommended layer order: 
+**5.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/OS_Open_Roads_layer_order.png "Recommended layer order for OS Open Roads")
-
-**8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer, for example for MotorwayJunction select XX_MotorwayJunction.shp (XX being the 100km tile name) > select ‘Add’
-
-Repeat step 8 for all layers.
 
 We recommend viewing the map between **1:250** and **1:100,000** for maximum legibility
 
