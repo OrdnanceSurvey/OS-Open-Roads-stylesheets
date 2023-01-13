@@ -5,11 +5,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Roads - MotorwayJunction</Name>
     <UserStyle>
-      <Title>Product SLD - August 2019</Title>
-      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>      
-      
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
+
       <!-- MotorwayJunction -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Motorway Simple Junction - 1:10,000 to 1:50,000</Name>
@@ -17,12 +17,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
               <ogc:PropertyIsLessThan>
                 <ogc:Function name="strLength">
-                  <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                  <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                 </ogc:Function>
                 <ogc:Literal>10</ogc:Literal>
               </ogc:PropertyIsLessThan>
               <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
-                <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                 <ogc:Literal>*Toll*</ogc:Literal>
               </ogc:PropertyIsLike>
             </ogc:Or>
@@ -32,12 +32,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <TextSymbolizer>
             <Label>
                 <ogc:Function name="strReplace">
-                <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                 <ogc:Literal>M.*J</ogc:Literal>
                 <ogc:Literal> </ogc:Literal>
                 <ogc:Literal>true</ogc:Literal>
-                </ogc:Function>  
-            </Label>    
+                </ogc:Function>
+            </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
               <CssParameter name="font-size">13</CssParameter>
@@ -63,14 +63,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#49AFE8</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#FFFFFF</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>13</Size>
             </Graphic>
             <VendorOption name="graphic-resize">stretch</VendorOption>
@@ -82,7 +82,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:PropertyIsGreaterThanOrEqualTo>
                   <ogc:Function name="strLength">
-                    <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                    <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                   </ogc:Function>
                   <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsGreaterThanOrEqualTo>
@@ -94,14 +94,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Function name="strConcat">
               <ogc:Function name="strSubString">
                 <ogc:Function name="strSubstring">
-                  <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                  <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                   <ogc:Literal>0</ogc:Literal>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:Function>
                 <ogc:Add>
                   <ogc:Function name="strIndexOf">
                     <ogc:Function name="strSubstring">
-                    <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                    <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                     <ogc:Literal>0</ogc:Literal>
                     <ogc:Literal>8</ogc:Literal>
                   </ogc:Function>
@@ -111,7 +111,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:Add>
                 <ogc:Function name="strIndexOf">
                   <ogc:Function name="strSubstring">
-                  <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                  <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                   <ogc:Literal>0</ogc:Literal>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:Function>
@@ -119,13 +119,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:Function>
               </ogc:Function>
               <ogc:Function name="strReplace">
-                <ogc:PropertyName>junctionNumber</ogc:PropertyName>
+                <ogc:PropertyName>junctionnumber</ogc:PropertyName>
                 <ogc:Literal>M.*J</ogc:Literal>
                 <ogc:Literal> &amp; </ogc:Literal>
                 <ogc:Literal>true</ogc:Literal>
-              </ogc:Function> 
-            </ogc:Function> 
-            </Label>    
+              </ogc:Function>
+            </ogc:Function>
+            </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
               <CssParameter name="font-size">13</CssParameter>
@@ -151,14 +151,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#49AFE8</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#FFFFFF</CssParameter>
                   <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>13</Size>
             </Graphic>
             <VendorOption name="graphic-resize">stretch</VendorOption>
