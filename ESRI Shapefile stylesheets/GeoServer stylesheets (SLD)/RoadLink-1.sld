@@ -7,16 +7,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <UserStyle>
       <Title>Product SLD - October 2016</Title>
       <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2016.</Abstract>
-      
-      <!--  Not Classified  -->
-      
-      <FeatureTypeStyle>   
+
+      <!--  Not classified  -->
+
+      <FeatureTypeStyle>
         <Rule>
-          <Name>Not Classified</Name>
+          <Name>Not classified</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
-              <ogc:Literal>Not Classified</ogc:Literal>
+              <ogc:PropertyName>class</ogc:PropertyName>
+              <ogc:Literal>Not classified</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>250</MinScaleDenominator>
@@ -31,13 +31,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Unclassified  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Unclassified</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>class</ogc:PropertyName>
               <ogc:Literal>Unclassified</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -52,15 +52,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
-      <!--  Classified  Unnumbered -->
-      
-      <FeatureTypeStyle>   
+      <!--  classified  Unnumbered -->
+
+      <FeatureTypeStyle>
         <Rule>
-          <Name>Classified Unnumbered</Name>
+          <Name>classified Unnumbered</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
-              <ogc:Literal>Classified Unnumbered</ogc:Literal>
+              <ogc:PropertyName>class</ogc:PropertyName>
+              <ogc:Literal>classified Unnumbered</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>250</MinScaleDenominator>
@@ -75,13 +75,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  B Road -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>B Road</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>class</ogc:PropertyName>
               <ogc:Literal>B Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -97,13 +97,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  A Road -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>A Road</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>class</ogc:PropertyName>
               <ogc:Literal>A Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -119,13 +119,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Motorway -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Motorway</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASS</ogc:PropertyName>
+              <ogc:PropertyName>class</ogc:PropertyName>
               <ogc:Literal>Motorway</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
