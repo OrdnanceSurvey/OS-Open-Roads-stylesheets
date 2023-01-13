@@ -5,22 +5,22 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Roads (RoadLink-2)</Name>
     <UserStyle>
-      <Title>Product SLD - August 2019</Title>
-      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
 
       <!--  Slip Road  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Local Access Road</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -39,11 +39,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -62,11 +62,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -85,11 +85,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -108,11 +108,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Minor Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -131,15 +131,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -158,15 +158,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -185,15 +185,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -212,15 +212,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -239,11 +239,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Motorway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Slip Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -260,23 +260,23 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Single Carriageway or Dual Carriageway or Shared Use (uncollapsed)  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Secondary Access Road</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -296,28 +296,28 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Traffic Island Link</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Guided Busway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
 				<ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Shared Use Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -337,16 +337,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -366,20 +366,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
 				<ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Shared Use Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -399,16 +399,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -428,16 +428,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Minor Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -457,20 +457,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -490,20 +490,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -523,20 +523,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -556,20 +556,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -589,16 +589,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Motorway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Single Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                  <ogc:PropertyName>formofway</ogc:PropertyName>
                   <ogc:Literal>Dual Carriageway</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -617,18 +617,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
 
       <!--  (Collapsed) Dual Carriageway  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Secondary Access Road</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -647,11 +647,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -670,11 +670,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -693,11 +693,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -716,11 +716,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -739,11 +739,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Minor Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -762,15 +762,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -789,15 +789,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -816,15 +816,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -843,15 +843,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -870,11 +870,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Motorway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Collapsed Dual Carriageway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -892,18 +892,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
 
       <!--  Roundabout  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Restricted Secondary Access Road</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -922,11 +922,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Restricted Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -945,11 +945,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Secondary Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -968,11 +968,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Access Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -991,11 +991,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Local Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1014,11 +1014,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Minor Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1037,15 +1037,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1064,15 +1064,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>B Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1091,15 +1091,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1118,15 +1118,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>A Road</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>primaryRoute</ogc:PropertyName>
+                <ogc:PropertyName>primaryroute</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1145,11 +1145,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>roadFunction</ogc:PropertyName>
+                <ogc:PropertyName>roadfunction</ogc:PropertyName>
                 <ogc:Literal>Motorway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formOfWay</ogc:PropertyName>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Roundabout</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
