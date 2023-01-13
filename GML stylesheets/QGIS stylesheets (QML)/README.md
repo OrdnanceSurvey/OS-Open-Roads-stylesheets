@@ -10,7 +10,7 @@ These are **QML** files for OS Open Roads data as supplied in **GML/GZ** format 
 
 **3.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the relevantly named QML file > click 'Open' > click 'OK'
 
-Repeat step 3 for all layers.
+Repeat step 4 for all layers.
 
 We recommend the following layer order and visibility:
 
