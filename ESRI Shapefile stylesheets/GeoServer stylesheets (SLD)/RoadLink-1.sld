@@ -5,8 +5,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Roads (RoadLink-1)</Name>
     <UserStyle>
-      <Title>Product SLD - October 2016</Title>
-      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2016.</Abstract>
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
 
       <!--  Not classified  -->
 
