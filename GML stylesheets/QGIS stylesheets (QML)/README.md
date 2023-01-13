@@ -14,7 +14,7 @@ Repeat step 3 for all layers.
 
 We recommend the following layer order and visibility:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/OS_Open_Roads_layer_order.png )
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/101acf2165e6a4b734e3c8c92d00de57f52140fb/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/OpenRoads_layers.PNG )
   
 The road_link1 style is a simple overview style with roads styled based on the 'class' attribute (e.g. A Road, B Road, Unclassified etc.). The road_link2 style uses more attributes to determine the road style. Roads are styled based on the road 'function', whether it is a 'primary' road and the 'formOfWay' (e.g. A Road, Primary, Dual Carriageway). The user can select which of these two road styles to use dependent on their use case.
 
