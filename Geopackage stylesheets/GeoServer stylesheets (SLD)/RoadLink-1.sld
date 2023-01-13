@@ -5,17 +5,17 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Roads (RoadLink-1)</Name>
     <UserStyle>
-      <Title>Product SLD - August 2019</Title>
-      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Roads. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
+
       <!--  Not Classified  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Not Classified</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>Not Classified</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -31,13 +31,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Unclassified  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Unclassified</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>Unclassified</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -51,15 +51,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-	  
+
 	  <!--  Unknown  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Unknown</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>Unknown</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -75,13 +75,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Classified  Unnumbered -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Classified Unnumbered</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>Classified Unnumbered</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -97,13 +97,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  B Road -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>B Road</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>B Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -119,13 +119,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  A Road -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>A Road</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>A Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -141,13 +141,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!--  Motorway -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>Motorway</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>roadClassification</ogc:PropertyName>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
               <ogc:Literal>Motorway</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
