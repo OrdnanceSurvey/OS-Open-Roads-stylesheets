@@ -16,7 +16,7 @@ We recommend the following layer order and visibility:
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/82a208b20515101894d4dd50ed6aaaf3ae741f8f/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/OpenRoads_layers.PNG )
 
-The roadlink-1 style is a simple overview style with roads styled based on the 'class' attribute (e.g. A Road, B Road, Unclassified etc.). The roadlink-2 style uses more attributes to determine the road style. Roads are styled based on the road 'function', whether it is a 'primary' road and the 'formOfWay' (e.g. A Road, Primary, Dual Carriageway). The user can select which of these two road styles to use dependent on their use case.
+The road_link1 style is a simple overview style with roads styled based on the 'class' attribute (e.g. A Road, B Road, Unclassified etc.). The road_link2 style uses more attributes to determine the road style. Roads are styled based on the road 'function', whether it is a 'primary' road and the 'formOfWay' (e.g. A Road, Primary, Dual Carriageway). The user can select which of these two road styles to use dependent on their use case.
 
 We recommend viewing the Open Roads data between **1:250** and **1:100,000** for maximum legibility
 
