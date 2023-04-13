@@ -20,7 +20,7 @@ These are **LYRX** files for OS Open Roads in **Geopackage** format for use in *
 
 **7.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OS_Open_Roads_layer_order.JPG "Recommended layer order for OS Open Roads")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/eac46696e7230864c2deb1d4a828860a336eb040/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OS_Open_Roads_layer_order.JPG "Recommended layer order for OS Open Roads")
 
 **8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source' tab > click on ‘Set Data Source…’ > navigate to your OS Open Roads data > select the data that matches the layer > select ‘Add’
 
