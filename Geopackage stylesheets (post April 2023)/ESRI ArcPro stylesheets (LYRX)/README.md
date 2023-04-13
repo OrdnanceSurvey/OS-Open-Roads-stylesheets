@@ -30,7 +30,7 @@ We recommend viewing the map between **1:250** and **1:100,000** for maximum leg
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OS_Open_Roads_screenshot.JPG"Screenshot of OS Open Roads")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/972b04053e99729730d3eb1e6db76530f1b02702/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OS_Open_Roads_screenshot.JPG "Screenshot of OS Open Roads")
 
 
 ## Additional information
