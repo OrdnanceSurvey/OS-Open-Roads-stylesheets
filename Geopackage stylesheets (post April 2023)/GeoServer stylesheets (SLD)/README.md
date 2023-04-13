@@ -26,7 +26,7 @@ The scale denominators have been set to allow viewing between **1:250** and **1:
 
 Your data should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/OS_Open_Roads_screenshot.png "Screenshot of OS Open Roads")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/ead88b49fcd7e4576d890ccdafe333bc78733904/Geopackage%20stylesheets%20(post%20April%202023)/GeoServer%20stylesheets%20(SLD)/images/OS_Open_Roads_screenshot.png "Screenshot of OS Open Roads")
 
 ## Compatibility notes
 
