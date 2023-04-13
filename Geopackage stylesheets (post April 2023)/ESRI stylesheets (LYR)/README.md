@@ -2,7 +2,7 @@
 
 These are **LYR** files for OS Open Roads in **ESRI Shapefile** format for use in **ESRI ArcGIS**.
 
-*They have been designed to work with the data as it is supplied. They have been designed for the geopackage data downloaded from the OS datahub **after April 2023***
+*They have been designed to work with the data as it is supplied. They have been designed to work the geopackage data downloaded from the OS datahub **after April 2023***
 
 ## Quick start guide
 
@@ -16,7 +16,7 @@ These are **LYR** files for OS Open Roads in **ESRI Shapefile** format for use i
 
 **5.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/OS_Open_Roads_layer_order.png "Recommended layer order for OS Open Roads")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/12e1c1a670a67e3339a747923b7a41c331d56ab5/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20stylesheets%20(LYR)/images/OS_Open_Roads_layer_order.png "Recommended layer order for OS Open Roads")
   
 The roadlink-1 style is a simple overview style with roads styled based on the 'class' attribute (e.g. A Road, B Road, Unclassified etc.). The roadlink-2 style uses more attributes to determine the road style. Roads are styled based on the road 'function', whether it is a 'primary' road and the 'formOfWay' (e.g. A Road, Primary, Dual Carriageway). The user can select which of these two road styles to use dependent on their use case.
 
