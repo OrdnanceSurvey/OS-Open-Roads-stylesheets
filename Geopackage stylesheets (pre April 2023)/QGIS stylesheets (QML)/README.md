@@ -2,6 +2,8 @@
 
 These are **QML** files for OS Open Roads data as supplied in **Geopackage** format for use in **QGIS**.
 
+*These stylesheets are designed to be used with the geopackage data downloaded from the OS DataHub **prior to April 2023***
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/archive/master.zip) the contents of this repository
