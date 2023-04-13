@@ -8,11 +8,11 @@ These are **LYRX** files for OS Open Roads in **Geopackage** format for use in *
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Open a new blank map in ArcPro
+**2.**  Open a new blank map in ArcPro. In the Map Ribbon at the top, under Labeling, select the 'More' dropdown and make sure 'Use Maplex Label Engine' is ticked on.
 
-**3.**  Right-click on ‘Map’ at the top of the Contents panel, select Properties… > then General > set Reference Scale to 1:25 000 and set the Label Engine to ‘Maplex Label Engine’
+**3.**  Right-click on ‘Map’ at the top of the Contents panel, select Properties… > then General > set Reference Scale to 1:25 000
 
-**4.**  In the same window change the Background colour to R 250 G 249 B 247, and under the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
+**4.**  In the same window change the Background colour to R 250 G 249 B 247, and under the Coordinate Systems tab > choose British National Grid. You may need to reposition to the data extent
 
 **5.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format and stylesheet format
 
@@ -22,7 +22,7 @@ These are **LYRX** files for OS Open Roads in **Geopackage** format for use in *
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/eac46696e7230864c2deb1d4a828860a336eb040/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OS_Open_Roads_layer_order.JPG "Recommended layer order for OS Open Roads")
 
-**8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source' tab > click on ‘Set Data Source…’ > navigate to your OS Open Roads data > select the data that matches the layer > select ‘Add’
+**8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source' tab > click on ‘Set Data Source…’ > navigate to your OS Open Roads data > select the data that matches the layer > select ‘OK’
 
 Repeat step 8 for all layers.
 
