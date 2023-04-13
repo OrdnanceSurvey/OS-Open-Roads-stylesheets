@@ -20,7 +20,7 @@ These are **QML** files for OS Open Roads in **Geopackage** format for use in **
 
 **6.** To create OS Open Roads in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/raw/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/OS_Open_Roads_layer_order.png "Recommended Layer Order")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Roads-stylesheets/blob/ab88ecd233a66fbbb4dd14001beb2d1d963e9af9/Geopackage%20stylesheets%20(post%20April%202023)/GeoServer%20stylesheets%20(SLD)/images/OS_Open_Roads_layer_order.png "Recommended Layer Order")
 
 The scale denominators have been set to allow viewing between **1:250** and **1:100 000**, although this will vary slightly by resolution with some layers limited to larger scales.
 
