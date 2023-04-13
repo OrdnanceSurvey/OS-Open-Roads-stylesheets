@@ -2,7 +2,7 @@
 
 These are **LYR** files for OS Open Roads in **ESRI Shapefile** format for use in **ESRI ArcGIS**.
 
-*They have been designed to work with the data as it is supplied.*
+*They have been designed to work with the data as it is supplied. They have been designed to work the geopackage data downloaded from the OS datahub **prior to April 2023***
 
 ## Quick start guide
 
