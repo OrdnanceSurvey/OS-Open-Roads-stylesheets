@@ -1,0 +1,116 @@
+{
+    "version": 8,
+    "name": "OS Open Roads",
+    "sources": {
+        "oproad_gb": {
+            "type": "vector",
+            "url": "https://example.com/tiles/vector/oproad-gb/tiles.json"
+        }
+    },
+    "glyphs": "insert your hosted glyph location url here",
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "layout": {
+                "visibility": "none"
+            }
+        },
+        {
+            "id": "road_link",
+            "type": "line",
+            "source": "oproad_gb",
+            "source-layer": "road_link",
+            "layout": {},
+            "paint": {
+                "line-color": [
+                    "match",
+                    [
+                        "get",
+                        "road_function"
+                    ],
+                    "A Road",
+                    "#D41C40",
+                    "B Road",
+                    "#D68522",
+                    "Local Access Road",
+                    "#E6E3D2",
+                    "Local Road",
+                    "#E6E3D2",
+                    "Minor Road",
+                    "#F7DD4A",
+                    "Motorway",
+                    "#009FB8",
+                    "Restricted Local Access Road",
+                    "#E6CDAC",
+                    "Secondary Access Road",
+                    "#E6E4D6",
+                    "#000000"
+                ],
+                "line-width": 2
+            }
+        },
+        {
+            "id": "road_node",
+            "type": "circle",
+            "source": "oproad_gb",
+            "source-layer": "road_node",
+            "layout": {},
+            "paint": {
+                "circle-color": "#FFFFFF",
+                "circle-radius": 3,
+                "circle-stroke-width": 1,
+                "circle-stroke-color": "#000000"
+            }
+        },
+        {
+            "id": "motorway_junction",
+            "type": "circle",
+            "source": "oproad_gb",
+            "source-layer": "motorway_junction",
+            "layout": {},
+            "paint": {
+                "circle-color": "#009FB8",
+                "circle-radius": 4,
+                "circle-stroke-width": 1,
+                "circle-stroke-color": "#FFFFFF"
+            }
+        },
+        {
+            "id": "motorway_junction_number",
+            "type": "symbol",
+            "source": "oproad_gb",
+            "source-layer": "motorway_junction",
+            "layout": {
+                "text-field": [
+                    "slice",
+                    [
+                        "get",
+                        "junction_number"
+                    ],
+                    [
+                        "index-of",
+                        "J",
+                        [
+                            "get",
+                            "junction_number"
+                        ]
+                    ]
+                ],
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 12
+            },
+            "paint": {
+                "text-color": "rgba(0, 159, 184, 1)",
+                "text-halo-color": "rgba(255, 255, 255, 1)",
+                "text-halo-width": 1,
+                "text-translate": [
+                    10,
+                    -10
+                ]
+            }
+        }
+    ]
+}
